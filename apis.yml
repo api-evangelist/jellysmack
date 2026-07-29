@@ -1,8 +1,27 @@
 aid: jellysmack
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jellysmack.png
 name: Jellysmack
-description: 'Jellysmack is a company surfaced as a portfolio company of partech, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Jellysmack is a content amplification and creator-growth platform that helps
+  digital creators expand their audiences and earnings across multiple social platforms
+  (YouTube, Facebook, Snapchat, TikTok, Instagram) using AI-driven optimization, first-party
+  data, and multi-platform distribution expertise. Its offerings span the Creator Program
+  (audience growth and monetization for 500+ creator partners), Jellysmack Originals
+  (owned beauty, sports, gaming, and entertainment channels), media licensing, and brand
+  partnerships. The company reports 10B+ monthly video views and 125M+ monthly U.S. unique
+  viewers. It is a consumer/creator-facing media technology company and does not publish
+  a public developer API; this profile is maintained in the API Evangelist network for
+  company/portfolio intelligence.'
 url: https://raw.githubusercontent.com/api-evangelist/jellysmack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Applicative Saas
+- Creator Economy
+- Content
+- Social Media
+- Video
+- Media
+- Creators
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jellysmack-domain-security.yml
 - type: Website
-  url: http://www.jellysmack.com/
+  url: https://www.jellysmack.com/
+- type: Blog
+  url: https://blog.jellysmack.com/
+- type: PrivacyPolicy
+  url: https://jellysmack.com/privacy-policy/
+- type: TermsOfService
+  url: https://jellysmack.com/terms-of-use/
+- type: Support
+  url: https://jellysmack.com/getintouch/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
